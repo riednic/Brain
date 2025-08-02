@@ -2,10 +2,10 @@ Component State Change: Component <*> WWID: <*> <*> <*> <*> <*> <*> <*> <*> <*> 
 inconsistent nodesets node- <*> 0x1fffffffe <ok> node- <*> 0xfffffffe <ok> node- <*> 0xfffffffe <ok> node- <*> 0xfffffffe <ok> node- <*> 0xfffffffe <ok>  1
 Component State Change: Component <*> is in the unavailable state (HWID= <*>  11
 ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node- <*>  36
-clusterAddMember (command <*>  2
-risBoot (command <*>  1
-bootGenvmunix (command <*>  2
-boot (command <*>  67
+clusterAddMember <*> <*>  2
+risBoot <*> <*>  1
+bootGenvmunix <*> <*>  2
+boot <*> <*>  67
 wait (command <*>  66
 halt (command <*>  3
 Link in reset  9
@@ -15,17 +15,18 @@ Command has been aborted  1
 psu failure\ ambient= <*>  5
 Linkerror event interval expired  394
 link errors remain current  56
-Targeting domains: node- <*> and nodes: node- <*> <*> child of command <*>  5
+Targeting domains: node- <*> and nodes: node- <*> <*> child of command <*>  1
+Targeting domains: <*> <*> and nodes: node- <*> <*> child of command <*>  4
 Targeting domains: node- <*> and nodes: node- <*> <*> <*>  1
 Targeting domains: node- D[0\ <*> and nodes: node- <*> <*>  1
 Fan speeds ( <*> <*> <*> <*> <*> <*> )  90
 Link error on broadcast tree Interconnect- <*> <*> <*> <*>  4
-Targeting domains: node- <*> and nodes: node- <*>  2
+Targeting domains: <*> <*> and nodes: node- <*>  2
 boot (command <*> Error: HALT asserted\ cannot continue  1
 Temperature <*> exceeds warning threshold  2
 ClusterFileSystem: There is no server for ServerFileSystem domain <*>  32
 ServerFileSystem: An ServerFileSystem domain panic has occurred on <*>  1
-NIFF: node node- <*> detected a failed network connection on network <*> via interface alt0  2
+NIFF: node <*> <*> detected a failed network connection on network <*> via interface alt0  2
 power/control problem  1
 Link error  13
 Link ok  13
@@ -42,7 +43,7 @@ closing  1
 normal  206
 warning  205
 critical  20
-inconsistent nodesets node- <*> <*> <ok> node- <*> <*> <ok> node- <*> <*> <ok> node- <*> <*> <ok>  2
+inconsistent nodesets <*> <*> <*> <ok> node- <*> <*> <ok> node- <*> <*> <ok> node- <*> <*> <ok>  2
 inconsistent nodesets node- <*> <*> <ok> node- <*> <*> <ok> node- <*> <*> <ok> node- <*> <*> <ok> node- <*> <*> <ok> node- <*> <*> <ok> node- <*> <*> <ok> node- <*> <*> <ok> node- <*> <*> <ok> node- <*> <*> <ok> node- <*> <*> <ok> node- <*> <*> <ok> node- <*> <*> <ok>  1
 risBoot (command <*> Error: Timed out while waiting for SRM prompt: <ABORT code completed>  1
 NIFF: node node- <*> has detected an available network connection on network <*> via interface <*>  45

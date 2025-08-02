@@ -9,7 +9,7 @@ Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>  130
 Received completed container container_ <*> <*> <*> <*>  2
 Executing with tokens:   1
 loaded properties from hadoop-metrics2.properties  1
-MRAppMaster metrics system started  1
+MRAppMaster metrics <*> started  1
 Using callQueue class java.util.concurrent.LinkedBlockingQueue  2
 adding path spec: /mapreduce/*  1
 adding path spec: /ws/*  1
@@ -23,16 +23,16 @@ Got allocated containers <*>  10
 Num completed Tasks: <*>  1
 ERROR IN CONTACTING RM.  147
 Kind: YARN_ AM_ RM_ TOKEN, Service: , Ident: ( appAttemptId { application_ id { id: <*> cluster_ timestamp: <*> } attemptId: <*> } keyId: <*>   1
-Using mapred newApiCommitter.  1
-maxTaskFailuresPerNode is <*>  1
-blacklistDisablePercent is <*>  1
-OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter  1
+<*> mapred newApiCommitter.  1
+maxTaskFailuresPerNode <*> <*>  1
+blacklistDisablePercent <*> <*>  1
+OutputCommitter <*> org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter  1
 Started <*> <*>  1
 yarn.client.max-cached-nodemanagers-proxies : <*>  1
-OutputCommitter set in config null  1
+<*> set in config null  1
 Jetty bound to port <*>  1
-Putting shuffle token in serviceData  1
-Error writing History Event: org.apache.hadoop.mapreduce.jobhistory.TaskAttemptUnsuccessfulCompletionEvent@7317849d  1
+Putting shuffle <*> in serviceData  1
+<*> writing History Event: org.apache.hadoop.mapreduce.jobhistory.TaskAttemptUnsuccessfulCompletionEvent@7317849d  1
 Instantiated MRClientService at <*> <*>  1
 JOB_ CREATE job_ <*> <*>  1
 maxContainerCapability: <memory: <*> vCores: <*>  1
@@ -51,15 +51,15 @@ IPC Server listener on <*> starting  2
 Logging to org.slf4j.impl.Log4jLoggerAdapter( org.mortbay.log) via org.mortbay.log.Slf4jLog  1
 Web app /mapreduce started at <*>  1
 Connecting to ResourceManager at <*> <*>  1
-Processing the event EventType: JOB_ SETUP  1
-Processing the event EventType: TASK_ ABORT  2
+Processing the <*> EventType: JOB_ SETUP  1
+Processing the <*> EventType: TASK_ ABORT  2
 Emitting job history data to the timeline server is not enabled  1
 Added filter AM_ PROXY_ FILTER ( class= org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter) to context mapreduce  1
 Added filter AM_ PROXY_ FILTER ( class= org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter) to context static  1
-task_ <*> <*> m_ <*> Task Transitioned from NEW to SCHEDULED  10
+task_ <*> <*> <*> <*> Task Transitioned from NEW to SCHEDULED  10
 task_ <*> <*> r_ <*> Task Transitioned from NEW to SCHEDULED  1
-task_ <*> <*> m_ <*> Task Transitioned from SCHEDULED to RUNNING  10
-task_ <*> <*> m_ <*> Task Transitioned from RUNNING to SUCCEEDED  1
+task_ <*> <*> <*> <*> Task Transitioned from SCHEDULED to RUNNING  10
+task_ <*> <*> <*> <*> Task Transitioned from RUNNING to SUCCEEDED  1
 The job-conf file on the remote FS is /tmp/hadoop-yarn/staging/msrabi/.staging/job_ <*> <*>  1
 Scheduling a redundant attempt for task task_ <*> <*> m_ <*>  1
 Task cleanup failed for attempt attempt_ <*> <*> m_ <*> <*>  2

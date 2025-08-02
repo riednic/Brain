@@ -1,6 +1,6 @@
 printFreezingDisplayLogsopening app wtoken = <*> token= <*> <*> <*> <*> <*> allDrawn= false, startingDisplayed = false, startingMoved = false, isRelaunching = false  1
-acquire lock= <*> flags= <*> tag= "View Lock", name= <*> ws= null, uid= <*> pid= <*>  1
-release: lock= <*> flg= <*> tag= "View Lock", name= <*> ws= null, uid= <*> pid= <*>  1
+<*> lock= <*> flags= <*> tag= "View Lock", name= <*> ws= null, uid= <*> pid= <*>  1
+<*> lock= <*> <*> <*> tag= "View Lock", name= <*> ws= null, uid= <*> pid= <*>  1
 overlapAmount: <*> previousNotificationEnd: <*> newYTranslation: <*> location: <*> i: <*> getTopPadding: <*> getLocationOnScreen( ) : <*>  13
 Skipping, withExcluded: false, tr.intent: Intent { act= <*> flg= <*> cmp= <*> ( has extras) }  14
 START <*> {flg= <*> cmp= <*> ( has extras) } from uid <*> on display <*>  1
@@ -9,12 +9,12 @@ Taking screenshot from Surface with crop: [Rect( <*> <*> - <*> <*> ], width: <*>
 enqueueNotificationInternal: pkg= <*> id= <*> notification= Notification( pri= <*> contentView= null vibrate= <*> sound= null tick defaults= <*> flags= <*> color= <*> vis= PRIVATE)   1
 Skipping <*> token= <*> <*> <*> <*> <*> -- going to hide  4
 new Process app= <*> <*> <*> <*> name: <*> qzone, euid: <*>  1
-visible is <*>  3
-mVisiblity.getValue is false  5
-updateDimmedActivatedHideSensitive overlap: false  52
+visible <*> <*>  3
+mVisiblity.getValue <*> false  5
+updateDimmedActivatedHideSensitive overlap: <*>  52
 updateDimmedActivatedHideSensitive overlap: true  13
 shouldBlockLocation running ...  37
-shouldBlockLocation ret: false  33
+shouldBlockLocation ret: <*>  33
 shouldBlockLocation ret: true  4
 logNotificationVisibilityChanges runInThread start  6
 logNotificationVisibilityChanges runInThread over  6
@@ -22,7 +22,7 @@ playSoundEffect effectType: <*>  10
 cancelNotification, index: <*>  23
 setLightsOn( true)   181
 getRecentTasks: topActivity= <*>  14
-makeExpandedInvisible: mExpandedVisible= true  3
+makeExpandedInvisible: mExpandedVisible= <*>  3
 received broadcast <*>  4
 makeExpandedInvisible: mExpandedVisible= false  1
 getLastAudibleStreamVolume treamType: <*>  9
@@ -30,16 +30,16 @@ getDevicesForStream streamType: <*>  2
 setSpeakerphoneOn on: true  2
 RefreshBatteryInfo isBatteryLow: <*>  2
 cleanUpApplicationRecord -- <*>  6
-stopWifiDisplayScanLocked record.mWifiDisplayScanRequested= false  6
+stopWifiDisplayScanLocked record.mWifiDisplayScanRequested= <*>  6
 stopWifiDisplayScanLocked mWifiDisplayScanRequestCount= <*>  6
 addNotification key= <*>  2
 getStreamVolume treamType: <*>  1
-ApStaDisabledState what= <*>  1
-DefaultState what= <*>  1
+ApStaDisabledState <*> <*>  1
+DefaultState <*> <*>  1
 updateChargingLocked: charging= false  1
 onReceive, action: <*>  1
 ACTION_BATTERY_CHANGED pluggedType: <*>  1
-visible is <*> gt <*>  2
+visible <*> <*> gt <*>  2
 notifyUiVisibilityChanged: vis= <*> SystemUiVisibility= <*>  19
 getNeighboringCellInfo calling app is <*>  5
 <*> Must execute in UI  3
@@ -53,7 +53,7 @@ cleanUpApplicationRecordLocked, pid: <*> restart: false  6
 Marking notification as seen <*>  2
 setDataSource( <*> <*> <*>   1
 ACTION_BATTERY_CHANGED AMP: <*> Volt: <*>  1
-updateClipping isOverlap: false, getTopPadding= <*> Translation= <*>  52
+updateClipping isOverlap: <*> getTopPadding= <*> Translation= <*>  52
 updateClipping isOverlap: true, getTopPadding= <*> Translation= <*>  13
 interceptKeyBeforeQueueing: key <*> , result : <*>  14
 <*> <*> cannot be cast to <*>  1
@@ -114,10 +114,10 @@ cleanUpApplicationRecordLocked, reset pid: <*> euid: <*>  6
 ACTIVITY check resid: <*> size= <*>  2
 startAnimation begin  1
 startAnimation end  1
-onNotificationClick called  2
+onNotificationClick <*>  2
 cancelNotificationLocked: <*>  2
 removeNotification: <*>  2
-onNotificationExpansionChanged called  2
+onNotificationExpansionChanged <*>  2
 cancelPeek: false  20
 onTrackingStopped: true  1
 onNotificationVisibilityChanged called  6
@@ -130,7 +130,7 @@ Start proc <*> <*> <*> for service <*>  1
 Application requested orientation <*> got rotation <*> which has compatible metrics  3
 updateLightsLocked, mInCall = false, mScreenOn = true, ledNotification = = null?true  4
 updateLightsLocked, mInCall = false, mScreenOn = true, ledNotification = = null?false  2
-flingToHeight: vel= <*> expand= true, target= <*> collapseSpeedUpFactor= <*> expandBecauseOfFalsing= false  1
+flingToHeight: vel= <*> expand= <*> target= <*> collapseSpeedUpFactor= <*> expandBecauseOfFalsing= false  1
 flingToHeight: vel= <*> expand= false, target= <*> collapseSpeedUpFactor= <*> expandBecauseOfFalsing= false  1
 updateIsPoweredLocked: wasPowered= false, mIsPowered= false, oldPlugType= <*> mPlugType= <*> mBatteryLevel= <*>  1
 Releasing suspend blocker "PowerManagerService.WakeLocks".  33
@@ -141,8 +141,8 @@ Bad activity token: <*>  1
 updateLightsLocked, turn off notificationLight  6
 state.clipTopAmount: <*> i: <*>  13
 registerCallback not in UI.  3
-cancelNotificationLocked, remove = <*>  2
-enqueueNotificationInternal: n.getKey = <*>  2
+cancelNotificationLocked, remove <*> <*>  2
+enqueueNotificationInternal: n.getKey <*> <*>  2
 applyOptionsLocked: Unknown animationType= <*>  2
 Received TIME_TICK alarm; rescheduling  3
 scheduleTimeTickEvent triggerAtTime = <*>  3

@@ -1,7 +1,7 @@
 <*> "GET <*> <*> status: <*> len: <*> time: <*>  931
 <*> "POST <*> <*> status: <*> len: <*> time: <*>  64
 <*> "DELETE <*> <*> status: <*> len: <*> time: <*>  22
-[instance: <*> Took <*> seconds to deallocate network for instance.  21
+<*> <*> Took <*> seconds to deallocate network for instance.  21
 [instance: <*> VM Started (Lifecycle Event)  22
 [instance: <*> VM Paused (Lifecycle Event)  22
 [instance: <*> VM Resumed (Lifecycle Event)  44
@@ -24,9 +24,9 @@ Active base files: <*>  82
 [instance: <*> Terminating instance  22
 Unknown base file: <*>  30
 Removable base files: <*>  30
-[instance: <*> Claim successful  21
-[instance: <*> Creating image  21
-[instance: <*> Took <*> seconds to build instance.  22
+<*> <*> Claim successful  21
+<*> <*> Creating image  21
+<*> <*> Took <*> seconds to build instance.  22
 Auditing locally available compute resources for node <*>  15
 Total usable vcpus: <*> total allocated vcpus: <*>  15
 Final resource view: <*> <*> <*> <*> <*> <*> <*> pci_stats=[]  15

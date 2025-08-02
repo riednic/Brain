@@ -1,6 +1,6 @@
 Registered signal handlers for [TERM, HUP, INT]  1
-Successfully started service 'sparkExecutorActorSystem' on port <*>  1
-Successfully started service <*> on port <*>  1
+Successfully <*> service 'sparkExecutorActorSystem' on port <*>  1
+Successfully <*> service <*> on port <*>  1
 Starting executor ID <*> on host mesos-slave-07  1
 Reading broadcast variable <*> took <*> ms  37
 File Output Committer Algorithm version is <*>  30
@@ -13,7 +13,7 @@ Input split: hdfs: <*> 9000/pjhe/logs/2kSOSP.log: <*>  45
 <*> is deprecated. Instead, use <*>  5
 SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)  2
 Slf4jLogger started  1
-<*> Committed  30
+<*> <*>  30
 Starting remoting  1
 Registered BlockManager  1
 Remoting started; listening on addresses : [akka.tcp: //sparkExecutorActorSystem@mesos-slave-07: <*>  1

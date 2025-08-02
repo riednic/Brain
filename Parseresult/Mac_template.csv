@@ -20,12 +20,12 @@ Unexpected payload found for message <*> dataLen <*>  2
 Internal name did not resolve to internal address!  1
 ARPT: <*> framerdy <*> bmccmd <*> framecnt <*>  8
 assertion failed: <*> <*> + <*> <*> <*>  3
-<*> <*> <*> [lvl=2] main() ksfetch done fetching.  1
-<*> <*> <*> [lvl=2] main() Fetcher is exiting.  1
+<*> <*> <*> <*> main() ksfetch done fetching.  1
+<*> <*> <*> <*> main() Fetcher is exiting.  1
 -_continuousScroll is deprecated for NSScrollWheel. Please use -hasPreciseScrollingDeltas.  1
 -deviceDeltaY is deprecated for NSScrollWheel. Please use -scrollingDeltaY.  1
-<IMMacNotificationCenterManager: <*> Updating enabled: NO (Topics: ( ))  1
-<*> dealloc  17
+<*> <*> Updating enabled: NO (Topics: ( ))  1
+<*> <*>  17
 AppleActuatorDevice::stop Entered  1
 AppleActuatorDevice::start Entered  1
 AppleActuatorDeviceUserClient::start Entered  1
@@ -65,7 +65,7 @@ Error in CoreDragRemoveTrackingHandler: <*>  1
 network changed: DNS* Proxy  3
 sigio_handler: sigio_handler_active != <*>  5
 hibernate_teardown_pmap_structs done: last_valid_compact_indx <*>  2
-hibernate_page_list_setall time: <*> ms  1
+hibernate_page_list_setall time: <*> <*>  1
 hibernate image path: /var/vm/sleepimage  2
 hibernate_setup(0) took <*> ms  2
 hciControllerOnline; HID devices? <*>  1
@@ -86,14 +86,14 @@ mDNS_RegisterInterface: Frequent transitions for interface awdl0 <*>  1
 PM response took <*> ms <*> powerd)  9
 PM response took <*> ms <*> WeChat)  1
 PM response took <*> ms <*> QQ)  1
-ARPT: <*> wl0: MDNS: IPV6 Addr: <*>  28
+ARPT: <*> wl0: MDNS: IPV6 Addr: <*>  24
 ARPT: <*> wl0: MDNS: IPV4 Addr: <*>  4
 ARPT: <*> wl0: setup_keepalive: Remote IP: <*>  8
 AppleThunderboltGenericHAL::earlyWake - complete - took <*> milliseconds  22
 Setting BTCoex Config: enable_2G:1, profile_2g:0, enable_5G:1, profile_5G:0  7
 [HID] [ATC] AppleDeviceManagementHIDEventService::processWakeReason Wake reason: Host <*>  8
 dnssd_clientstub ConnectToServer: connect()-> No of tries: <*>  44
-RTC: Maintenance <*> <*> sleep <*> <*>  5
+<*> Maintenance <*> <*> sleep <*> <*>  2
 en0: <*> country code set to 'X3'.  3
 en0: <*> country code set to 'US'.  2
 handle_will_sleep_auth_and_shield_windows: Reordering authw <*> (lock state: <*>  1
@@ -102,14 +102,16 @@ network changed: <*> <*> DNS! Proxy SMB  7
 network changed: <*> <*> DNS Proxy SMB  1
 <*> : Discoverable mode changed to Off  2
 <<<< MediaValidator >>>> mv_LookupCodecSupport: Unrecognized codec <*>  1
-ARPT: <*> wl0: setup_keepalive: Local IP: <*>  4
+ARPT: <*> wl0: <*> Local IP: <*>  4
 in6_unlink_ifa: IPv6 address <*> has no prefix  9
 enabling <*> for plug-in <*> <*> <*>  1
 Checking iCDP status for DSID <*> (checkWithServer=0)  1
+RTC: <*> <*> <*> <*> <*> <*>  3
 ChromeExistion main strSendMsg = {"websitekey":false, "commandkey":true, "browserkey":true}  1
 hibernate_flush_memory: buffer_cache_gc freed up <*> wired pages  2
 full wake request (reason <*> <*> ms  1
 full wake promotion (reason <*> <*> ms  1
+ARPT: <*> wl0: MDNS: <*> Addr: <*>  4
 hibernate_newruntime_map time: <*> ms, IOPolledFilePollersOpen(), ml_get_interrupts_enabled <*>  2
 DB Error: <*> "no such table: <*>  3
 [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object  2
@@ -122,25 +124,27 @@ Captive: [CNInfoNetworkActive:1748] en0: SSID 'CalVisitor' making interface prim
 <*> <*> <*> [lvl=2] -[KSOutOfProcessFetcher(PrivateMethods) launchedHelperTaskForToolPath:error:] KSOutOfProcessFetcher launched '/Users/xpc/Library/Google/GoogleSoftwareUpdate/GoogleSoftwareUpdate.bundle/Contents/MacOS/ksfetch' with process id: <*>  1
 ARPT: <*> AirPort_Brcm43xx::powerChange: System Wake - Full Wake/ Dark Wake / Maintenance wake  12
 **** [IOBluetoothFamily][ProcessBluetoothTransportShowsUpActionWL] -- calling IOBluetoothFamily's registerService() -- <*> -- <*> -- <*> ****  2
-[Accounts] Current connection, <NSXPCConnection: <*> connection from pid <*> doesn't have account access.  2
-[Accounts] Failed to update account with identifier <*> error: Error Domain=ABAddressBookErrorDomain <*> "(null)"  2
+<*> Current connection, <NSXPCConnection: <*> connection from pid <*> doesn't have account access.  2
+<*> Failed to update account with identifier <*> error: Error Domain=ABAddressBookErrorDomain <*> "(null)"  2
 Cocoa scripting error for <*> four character codes must be four characters long.  71
 <*> <<<< CRABS >>>> crabsWaitForLoad: <*> Wait time out - <*> (msRequestTimeout <*>  1
 Could not get event name for stream/token: <*> <*> Request for stale data  1
 ARPT: <*> wl0: wl_update_tcpkeep_seq: Original Seq: <*> Ack: <*> Win size: <*>  6
-<*> <<<< CRABS >>>> crabsFlumeHostAvailable: <*> Byte flume reports host available again.  3
+<*> <<<< <*> >>>> crabsFlumeHostAvailable: <*> Byte flume reports host available again.  3
 -[NetworkAnalyticsEngine _writeJournalRecord:fromCellFingerprint:key:atLOI:ofKind:lqm:isFaulty:] Hashing of the primary key failed. Dropping the journal record.  17
 <*> [Refusing to parse response to PROPPATCH because of content-type: [text/html; charset=UTF-8].]  5
 NETWORK: requery, <*> <*> <*> <*> <*> items, fQueryRetries, <*> fLastRetryTimestamp, <*>  17
 <*> <*> <*> [lvl=2] -[KSUpdateEngine updateAllExceptProduct:] KSUpdateEngine updating all installed products, <*>  2
 ARPT: <*> IOPMPowerSource Information: onSleep, SleepType: Standby, 'ExternalConnected': No, 'TimeRemaining': <*>   1
 Failed to stop a scan - central is not powered on: <*>  1
-<*> <*> <*> [lvl=2] -[KSOutOfProcessFetcher(PrivateMethods) helperDidTerminate:] KSOutOfProcessFetcher fetch ended for URL: <*>  3
+<*> <*> <*> [lvl=2] -[KSOutOfProcessFetcher(PrivateMethods) helperDidTerminate:] KSOutOfProcessFetcher fetch ended for <*> <*>  2
 could discard act <*> inact <*> purgeable <*> spec <*> cleaned <*>  2
 did discard act <*> inact <*> purgeable <*> spec <*> cleaned <*>  1
 <*> <*> <*> [lvl=2] -[KSMultiUpdateAction performAction] KSPromptAction had no updates to apply.  1
 <*> [Account <*> timed out when executing operation: <CalDAVAccountRefreshQueueableOperation: <*> Sequence: <*>  1
-<*> <*> <*> [lvl=2] -[KSOutOfProcessFetcher beginFetchWithDelegate:] KSOutOfProcessFetcher start fetch from URL: <*>  2
+<*> <*> <*> [lvl=2] -[KSOutOfProcessFetcher(PrivateMethods) helperDidTerminate:] <*> fetch ended for URL: <*>  1
+<*> <*> <*> [lvl=2] -[KSOutOfProcessFetcher beginFetchWithDelegate:] <*> start fetch <*> URL: <*>  1
+<*> <*> <*> [lvl=2] -[KSOutOfProcessFetcher beginFetchWithDelegate:] KSOutOfProcessFetcher start fetch from URL: <*>  1
 [QL] No sandbox token for request <QLThumbnailRequest vmware-usbarb-25037.log>, it will probably fail  1
 ARPT: <*> ARPT: Wake Reason: Wake on Scan offload  9
 ARPT: <*> ARPT: Wake Reason: Wake on TCP Timeout  2
@@ -155,28 +159,29 @@ doSaveChannels@286: Will write to: <*> <*> <*> - AuthFail:sts:5_rsn:0.xml  4
 doSaveChannels@286: Will write to: <*> <*> <*> - AssocFail:sts:5_rsn:0.xml  1
 doSaveChannels@286: Will write to: <*> <*> <*> - AssocFail:sts:2_rsn:0.xml  1
 bitmap_size <*> previewSize <*> writing <*> pages @ <*>  2
-<*> <*> <*> [lvl=2] -[KSAgentApp(KeystoneDelegate) updateEngineFinishedWithErrors:] Keystone finished: errors=0  2
+<*> <*> <*> <*> -[KSAgentApp(KeystoneDelegate) updateEngineFinishedWithErrors:] Keystone finished: errors=0  1
 -[NETClientConnection evaluateCrazyIvan46] <*> - Perform CrazyIvan46! <*> <*> <*>  4
 -[NETClientConnection evaluateCrazyIvan46] <*> - Perform CrazyIvan46! NeteaseMusic.17988 <*> <*>  1
 <*> [Adding [<CalDAVAccountRefreshQueueableOperation: <*> Sequence: <*> to failed operations.]  3
-no application identifier provided, can't use provisioning profiles <*>  1
+<*> <*> <*> [lvl=2] -[KSAgentApp(KeystoneDelegate) updateEngineFinishedWithErrors:] Keystone finished: errors=0  1
+<*> application identifier provided, can't use provisioning profiles <*>  1
 tcp_connection_destination_handle_tls_close_notify <*> closing socket due to TLS CLOSE_NOTIFY alert  1
-schedule invalidation <DYTransport <*> error: lost transport connection <*>  1
+schedule invalidation <DYTransport <*> error: lost <*> connection <*>  1
 __73-[NetworkAnalyticsEngine observeValueForKeyPath:ofObject:change:context:]_block_invoke unexpected switch value <*>  16
 <*> : BTLE scanner Powered On  8
 <*> : BTLE scanner Powered Off  4
 Saw change in network reachability (isReachable=2)  2
 Saw change in network reachability (isReachable=0)  2
-en0: channel changed to <*> <*>  6
+en0: channel changed <*> <*> <*>  6
 PMStats: Hibernate read <*> <*> ms  1
 arp_client_transmit(en0) failed, Network <*> down <*>  1
 <*> <*> PM <*> BecomingInactive: NSWorkspaceWillSleepNotification  1
 NSURLSession/NSURLConnection HTTP load <*> (kCFStreamErrorDomainSSL, <*>  1
 Telling CSI to <*> low power.  1
 <*> : Scanning mode Contacts Only  7
-Service exited with abnormal code: <*>  1
+<*> exited with abnormal code: <*>  1
 network changed: <*> <*> DNS- Proxy-  1
-vm_compressor_fastwake_warmup <*> - <*> - starting  1
+vm_compressor_fastwake_warmup <*> <*> <*> - starting  1
 Central manager is not powered on  1
 Peripheral manager is not powered on  3
 CCIOReporterFormatter::refreshSubscriptionsFromStreamRegistry clearing out any previous subscriptions  9
@@ -201,9 +206,9 @@ Wake reason: ?  2
 ARPT: <*> wlc_dump_aggfifo:  6
 KeychainGetICDPStatus: status: off  8
 network changed: DNS*  1
-Session <*> created  1
+<*> <*> created  1
 Daemon connection invalidated!  1
-hibernate_page_list_setall(preflight <*> start  1
+hibernate_page_list_setall(preflight <*> <*>  1
 DB Path: <*>  1
 Invalidating watch set.  1
 IOPolledFilePollersOpen(0) <*> ms  1
@@ -218,13 +223,13 @@ network_reachability_changed : network is not reachable, netbiosd is shutting do
 ARPT: <*> wl0: setup_keepalive: Local port: <*> Remote port: <*>  8
 IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from AUTO to SUSPENDED  14
 IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from SUSPENDED to AUTO  6
-<*> : BTLE discovered device with hash <*> <*> <*>  1
+<*> : BTLE discovered device <*> hash <*> <*> <*>  1
 [IOBluetoothFamily][staticBluetoothTransportShowsUp] -- Received Bluetooth Controller register service notification -- <*>  1
 <*> <*> <*> [lvl=2] -[KSOmahaServer updateInfosForUpdateResponse:updateRequest:infoStore:upToDateTickets:updatedTickets:events:errors:] Response passed CUP validation.  1
 ARPT: <*> wl0: setup_keepalive: interval <*> retry_interval <*> retry_count <*>  11
 __42-[NETClientConnection evaluateCrazyIvan46]_block_invoke <*> - Hit by torpedo! <*> <*> <*>  9
 __42-[NETClientConnection evaluateCrazyIvan46]_block_invoke <*> - Hit by torpedo! NeteaseMusic.17988 <*> <*>  1
-tcp_connection_destination_perform_socket_connect <*> connectx to <*> failed: <*> Network is down  3
+tcp_connection_destination_perform_socket_connect <*> connectx <*> <*> failed: <*> Network is down  3
 <*> parser:didStartElement:namespaceURI:qualifiedName:attributes:] Type not found in EWSItemType for ExchangePersonIdGuid (t:ExchangePersonIdGuid)  3
 -[SOAPParser:0x7fca6040cb50 parser:didStartElement:namespaceURI:qualifiedName:attributes:] Type not found in EWSItemType for ExchangePersonIdGuid (t:ExchangePersonIdGuid)  1
 -[ISGenerateImageOp generateImageWithCompletion:] Failed to composit image for descriptor <ISBindingImageDescriptor: <*>  20
@@ -232,7 +237,7 @@ Bluetooth -- LE is supported - Disable LE meta event  11
 <*> itemasync_SetProperty signalled <*> (kFigBaseObjectError_Invalidated) (invalidated) at <*> line <*>  5
 <*> itemasync_CopyProperty signalled <*> (kFigBaseObjectError_Invalidated) (invalidated) at <*> line <*>  4
 <*> : Starting AirDrop server for user <*> on wake  2
-tcp_connection_destination_perform_socket_connect <*> connectx to <*> failed: <*> Network is unreachable  1
+tcp_connection_destination_perform_socket_connect <*> connectx <*> <*> failed: <*> Network is unreachable  1
 ASSERTION FAILED: dvcAddrRef != ((void *)0) -[DriverServices getDeviceAddress:] line: <*>  4
 polled file major <*> minor <*> blocksize <*> pollers <*>  3
 Service <*> tried to hijack endpoint <*> from owner: <*>  3
@@ -243,11 +248,11 @@ AirPort: Link Up on <*>  4
 AirPort: Link Up on awdl0  9
 Sandbox: <*> deny(1) network-outbound /private/var/run/mDNSResponder  29
 Sandbox: <*> deny(1) mach-lookup <*>  4
-AppleThunderboltNHIType2::waitForOk2Go2Sx - retries = <*>  11
-en0: channel changed to <*>  14
-en0: BSSID changed to <*>  16
-<*> : Finished generating hashes  1
-<*> : Started generating hashes  1
+AppleThunderboltNHIType2::waitForOk2Go2Sx <*> retries = <*>  11
+en0: channel changed <*> <*>  14
+en0: BSSID changed <*> <*>  16
+<*> <*> Finished generating hashes  1
+<*> <*> Started generating hashes  1
 no sleep images for WillPowerOffWithImages  1
 CCXPCService::setStreamEventHandler Registered for notification callback.  2
 [0701/114930:WARNING:dns_config_service_posix.cc(306)] Failed to read DnsConfig.  1
@@ -257,15 +262,15 @@ CCXPCService::setStreamEventHandler Registered for notification callback.  2
 Error returned from iconservicesagent: (null)  13
 tcp_connection_tls_session_error_callback_imp <*> __tcp_connection_tls_session_callback_write_block_invoke.434 error <*>  8
 device_generate_desktop_screenshot: authw <*> shield <*>  3
-<IMMacNotificationCenterManager: <*> DND Enabled: NO  2
+<*> <*> DND Enabled: NO  2
 ChromeExistion main isUndetectWithCommand = <*>  2
 TBT W (2): <*> [x]  4
-<*> : BTLE scanning stopped  2
-<*> : BTLE scanning started  2
+<*> <*> BTLE scanning stopped  2
+<*> <*> BTLE scanning started  2
 wake time set <*> s  3
 IOPMrootDomain: idle cancel, state <*>  3
 <*> : Purged contact hashes  2
-<IMMacNotificationCenterManager: <*> DND Enabled: YES  1
+<*> <*> DND Enabled: YES  1
 CCLogTap::profileRemoved, Owner: <*> Name: OneStats  1
 CCLogTap::profileRemoved, Owner: <*> Name: IO80211AWDLPeerManager  2
 CCDataTap::profileRemoved, Owner: <*> Name: StateSnapshots  1
@@ -273,11 +278,11 @@ CCDataTap::profileRemoved, Owner: <*> Name: AssociationEventHistory  1
 network changed: <*> DNS- Proxy-  2
 <*> message service <*> terminated  1
 <*> <*> tcp_connection_tls_session_handle_read_error.790 <*> <*>  1
-<*> completed - <*> <*>  1
+<*> <*> - <*> <*>  1
 <*> <*> deny(1) <*> /private/etc/hosts  1
 <*> SpotlightNetHelp(352) deny(1) <*> <*>  1
 <*> timed out <*> <*>  1
-ARPT: <*> AirPort_Brcm43xx::powerChange: System Sleep  17
+<*> <*> AirPort_Brcm43xx::powerChange: System Sleep  17
 <IMMacNotificationCenterManager: <*> NC Disabled: NO  5
 after trim url = <*>  1
 <*> scheduler_evaluate_activity told me to run this job; however, but the start time isn't for <*> seconds. Ignoring.  166
@@ -301,9 +306,10 @@ IOHibernatePollerOpen(0)  2
 kern_open_file_for_direct_io(0)  1
 CCProfileMonitor::setStreamEventHandler  1
 SOSAccountThisDeviceCanSyncWithCircle sync with device failure: Error <*> <*> "Account identity not set" UserInfo={NSDescription=Account identity not set}  12
-<*> <*> <*> [lvl=2] main() ksfetch fetching URL (<NSMutableURLRequest: <*> { URL: <*> }) to folder:/tmp/KSOutOfProcessFetcher.YH2CjY1tnx/download  1
-<*> <*> <*> [lvl=2] main() ksfetch fetching URL (<NSMutableURLRequest: <*> { URL: <*> }) to folder:/tmp/KSOutOfProcessFetcher.aPWod5QMh1/download  1
-CCFile::copyFile fileName is <*> <*> <*> source <*> <*> <*> dest <*> <*> <*> <*> <*>  21
+<*> <*> <*> [lvl=2] <*> ksfetch fetching URL (<NSMutableURLRequest: <*> { URL: <*> }) <*> folder:/tmp/KSOutOfProcessFetcher.YH2CjY1tnx/download  1
+<*> <*> <*> [lvl=2] <*> ksfetch fetching URL (<NSMutableURLRequest: <*> { URL: <*> }) <*> folder:/tmp/KSOutOfProcessFetcher.aPWod5QMh1/download  1
+CCFile::copyFile fileName <*> <*> <*> <*> source <*> <*> <*> dest <*> <*> <*> <*> <*>  14
+CCFile::copyFile fileName is <*> <*> <*> source <*> <*> <*> dest <*> <*> <*> <*> <*>  7
 hostControllerOnline - Number of Paired devices = <*> List of Paired devices = ( <*> )  1
 securityd_xpc_dictionary_handler cloudd[326] copy_matching Error Domain=NSOSStatusErrorDomain Code=-50 "query missing class name" (paramErr: error in user parameter list) UserInfo={NSDescription=query missing class name}  4
 pages <*> wire <*> act <*> inact <*> cleaned <*> spec <*> zf <*> throt <*> compr <*> xpmapped <*>  4
@@ -312,13 +318,14 @@ AirPort: Link Down on en0. Reason <*> (Disassociated because station leaving).  
 ARPT: <*> wl0: setup_keepalive: Seq: <*> Ack: <*> Win size: <*>  8
 dnssd_clientstub ConnectToServer: connect() failed path:/var/run/mDNSResponder Socket:4 Err:-1 Errno:1 Operation not permitted  13
 device_generate_lock_screen_screenshot: authw <*> <*> <*> <*> shield <*> dev <*> <*>  3
-<*> <*> <*> [lvl=2] KSHelperReceiveAllData() KSHelperTool read <*> bytes from stdin.  3
+<*> <*> <*> [lvl=2] KSHelperReceiveAllData() KSHelperTool read <*> bytes from stdin.  1
+<*> <*> <*> [lvl=2] KSHelperReceiveAllData() KSHelperTool read <*> bytes <*> stdin.  2
 <*> FigAgglomeratorSetObjectForKey signalled <*> (kFigStringConformerError_ParamErr) (NULL key) at <*> line <*>  11
 Opened file /var/log/SleepWakeStacks.bin, size <*> extents <*> maxio <*> ssd <*>  2
 Opened file /var/vm/sleepimage, size <*> extents <*> maxio <*> ssd <*>  1
-<*> <<<< CRABS >>>> crabsFlumeHostUnavailable: <*> Byte flume reports host unavailable.  2
-<*> <*> <*> [lvl=2] -[KSPrefetchAction performAction] KSPrefetchAction no updates to prefetch.  1
-<*> <*> <*> [lvl=2] -[KSOutOfProcessFetcher beginFetchWithDelegate:] KSOutOfProcessFetcher fetching from URL: <*>  1
+<*> <<<< <*> >>>> crabsFlumeHostUnavailable: <*> Byte flume reports host unavailable.  2
+<*> <*> <*> <*> -[KSPrefetchAction performAction] KSPrefetchAction no updates to prefetch.  1
+<*> <*> <*> <*> -[KSOutOfProcessFetcher beginFetchWithDelegate:] KSOutOfProcessFetcher fetching from URL: <*>  1
 <<<< MediaValidator >>>> mv_ValidateRFC4281CodecId: Unrecognized codec 1.(null). Failed codec specific check.  1
 <IMMacNotificationCenterManager: <*> notification observer: <*> notification: __CFNotification <*> {name = _NSDoNotDisturbEnabledNotification}  1
 **** [IOBluetoothHostControllerUSBTransport][start] -- completed -- result = TRUE -- <*> ****  2
